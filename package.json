@@ -1,0 +1,35 @@
+{
+  "name": "nodejsrepo",
+  "version": "0.0.1",
+  "description": "Nodejs test Repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedMamdouh-432/Git-Practice.git"
+  },
+  "keywords": [
+    "git",
+    "nodejs",
+    "mongodb",
+    "restapi"
+  ],
+  "author": "Mohamed Mamdouh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedMamdouh-432/Git-Practice/issues"
+  },
+  "homepage": "https://github.com/MohamedMamdouh-432/Git-Practice#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
